@@ -8,10 +8,10 @@
         "properties"
     ],
     "scripts": {
-        "style-dictionary": "style-dictionary build --config sd.config.json",
-        "transform-tokens": "token-transformer ./tokens/tokens.json transformed-tokens/tokens.json",
-        "clean": "rm -rf build transformed-tokens",
-        "build": "npm run style-dictionary && npm run transform-tokens"
+      "style-dictionary": "style-dictionary build --config sd.config.json",
+      "transform-tokens": "token-transformer ./tokens/tokens.json transformed-tokens/tokens.json",
+      "clean": "rm -rf build transformed-tokens",
+      "build": "npm run style-dictionary && npm run transform-tokens && npm run clean"
     },
     "author": "",
     "license": "ISC",
